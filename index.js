@@ -5,7 +5,7 @@ const fi = (function() {
     },
 
     each: function() {
-
+    fi.each(testArr, alert);
     },
 
     map: function() {
@@ -13,7 +13,8 @@ const fi = (function() {
     },
 
     reduce: function() {
-
+const testArr = unmodifiedTestArr.slice(); // arr is [1, 2, 3, 4]
+    const callback = (acc, val, collection) => (acc + (val * 3));
     },
 
     functions: function() {
